@@ -3,3 +3,11 @@ Készíts egy programot, amely egy előre meghatározott jelszót vár el a felh
 Ha eltalálja a jelszót, jelenjen meg egy üzenet, hogy „Sikeres belépés”.
 """
 
+jelszo = "titok"
+while True:
+    beirt_jelszo = input("Kérem a jelszót: ")
+    if beirt_jelszo == jelszo:
+        print("Sikeres belépés")
+        break
+    else:
+        print("Helytelen jelszó, próbáld újra.")
